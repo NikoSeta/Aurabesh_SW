@@ -1,0 +1,15 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: "Aurabesh";
+    src: 
+      local(Aurabesh),
+      url(./fonts/Aurabesh.woff) format(woff);
+}
+body{
+  background: rgb(51,53,51);
+  background: linear-gradient(180deg, rgba(51,53,51,1) 0%, rgba(32,32,32,1) 100%); 
+}

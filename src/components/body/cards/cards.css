@@ -1,0 +1,47 @@
+
+.contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cards {
+    user-select: none;
+    width: 150px;
+    height: 250px;
+    border: 1px solid #ffffff22;
+    background-image: url('../../../../public/Beskar.jpg');
+    background-size: cover;
+    border-radius: 0.7rem;
+    overflow: hidden;
+    transition: 0.5s all;
+    font-family: Aurabesh;
+  }
+  .letra{
+    text-align: center;
+    font-size: 150px;
+  }
+
+  .cards ::before {
+    position: fixed;
+    content: "";
+    box-shadow: 0 0 100px 40px #8a7d7d24;
+    top: -10%;
+    left: -100%;
+    transform: rotate(-45deg);
+    height: 60rem;
+    transition: 0.7s all;
+  }
+  .cards:hover {
+    box-shadow: 0px 0px 50px -5px rgba(76,57,57,0.52);
+    -webkit-box-shadow: 22px 24px 5px -5px rgba(76,57,57,0.52);
+    -moz-box-shadow: 22px 24px 5px -5px rgba(76,57,57,0.52);
+    transform: scale(1.015);
+    filter: brightness(1.3);
+    font-family: 'Roboto', sans-serif;
+  }
+  .cards:hover ::before {
+    filter: brightness(1);
+    top: -100%;
+    left: 200%;
+  }

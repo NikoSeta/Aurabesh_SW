@@ -1,0 +1,10 @@
+.title{
+  background-image: url('../../../public/Millennium.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+
+.title img{
+  width: 600px;
+}
